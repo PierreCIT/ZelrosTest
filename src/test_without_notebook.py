@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import math
 import re
 import heapq
-from keras_tqdm import TQDMCallback
+from keras_tqdm_moded.tqdm_callback import TQDMCallback
 
 tqdm.pandas()
 Input = tf.keras.layers.Input
