@@ -10,7 +10,7 @@ class TQDMNotebookCallback(TQDMCallback):
                  inner_description_update="[{metrics}] ",
                  metric_format="{name}: {value:0.3f}",
                  separator=", ",
-                 leave_inner=False,
+                 leave_inner=True,
                  leave_outer=True,
                  output_file=sys.stderr, **kwargs):
         super(TQDMNotebookCallback, self).__init__(outer_description=outer_description,
